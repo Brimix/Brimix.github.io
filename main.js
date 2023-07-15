@@ -17006,9 +17006,12 @@ const App = () => {
     className: "main-page",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "main-page__body",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-        src: _img_20210705_171351_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
-        alt: "Pibe fachero"
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+        className: "main-page__picture",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+          src: _img_20210705_171351_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+          alt: "Pibe fachero"
+        })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
         className: "main-page__content",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_LinksBrief__WEBPACK_IMPORTED_MODULE_1__["default"], {})
@@ -18784,7 +18787,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".links-brief {\n  display: flex;\n  flex-direction: column; }\n  .links-brief * {\n    font-size: 30px; }\n  .links-brief > div > * {\n    margin-inline: 10px; }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".links-brief {\n  display: flex;\n  flex-direction: column; }\n  .links-brief * {\n    font-size: 30px; }\n  .links-brief > div > * {\n    margin: 10px; }\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -18874,7 +18877,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html, body, #root {\n  margin: 0;\n  height: 100%;\n  width: 100%; }\n\n@font-face {\n  font-family: hilo-deco;\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\n.main-page {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between; }\n  .main-page__body {\n    height: calc(100% - 30px);\n    display: flex;\n    flex-direction: row; }\n    .main-page__body img {\n      height: 100%; }\n  .main-page__content {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    vertical-align: middle;\n    justify-content: space-around;\n    text-align: center; }\n    .main-page__content * {\n      font-family: hilo-deco;\n      font-size: 40; }\n  .main-page__footer {\n    height: 30px;\n    border-top: solid 1px black; }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "html, body, #root {\n  margin: 0;\n  height: 100%;\n  width: 100%; }\n\n@font-face {\n  font-family: hilo-deco;\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\n.main-page {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between; }\n  .main-page__body {\n    height: calc(100% - 30px);\n    display: flex;\n    flex-direction: row; }\n  .main-page__picture img {\n    width: unset;\n    height: 100%; }\n  @media screen and (max-width: 1200px) {\n    .main-page__picture {\n      position: absolute;\n      height: 100%;\n      width: 100%;\n      display: flex;\n      justify-content: center;\n      opacity: 20%; }\n      .main-page__picture img {\n        max-width: 100%;\n        max-height: calc(100vh - 30px);\n        object-fit: scale-down; } }\n  .main-page__content {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    vertical-align: middle;\n    justify-content: space-around;\n    text-align: center; }\n    .main-page__content * {\n      font-family: hilo-deco;\n      font-size: 40; }\n  .main-page__footer {\n    height: 30px;\n    border-top: solid 1px black; }\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
